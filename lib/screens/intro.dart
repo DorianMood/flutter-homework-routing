@@ -16,12 +16,7 @@ class IntroScreen extends StatelessWidget {
             CupertinoButton(
               child: const Text('Authentificate'),
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const AuthentificationScreen(),
-                  ),
-                );
+                Navigator.pushNamed(context, '/authentification');
               },
             )
           ],
