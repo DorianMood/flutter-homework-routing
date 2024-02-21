@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:test_drive/screens/authentification.dart';
 
 class IntroScreen extends StatelessWidget {
   const IntroScreen({super.key});
