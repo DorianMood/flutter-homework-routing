@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:test_drive/screens/authentification.dart';
 
 class IntroScreen extends StatelessWidget {
   const IntroScreen({super.key});
@@ -16,12 +15,7 @@ class IntroScreen extends StatelessWidget {
             CupertinoButton(
               child: const Text('Authentificate'),
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const AuthentificationScreen(),
-                  ),
-                );
+                Navigator.pushNamed(context, '/authentification');
               },
             )
           ],
